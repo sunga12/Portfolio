@@ -183,11 +183,10 @@
   main {
     display: flex;
     flex-direction: row;
-    padding: 192px 0px;
+    padding: 192px 0;
     margin: 5px;
-    color: #FFFFFF;
+    color: #fff;
     justify-content: space-around;
-
   }
 
   .main-text {
@@ -197,7 +196,7 @@
     justify-items: center;
     color: #fff;
     order: 2;
-}
+  }
 
   .hello-me {
     color: #f55800;
