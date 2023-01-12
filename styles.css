@@ -179,37 +179,37 @@
     order: 0;
     flex-grow: 0;
   }
-  
-main {
+
+  main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 192px 0px;
+    padding: 192px 0;
     justify-items: center;
-    color: #FFFFFF;
+    color: #fff;
     position: absolute;
-}
+  }
 
-.hello-me {
-  color: #F55800;
-  font-size: 72px;
-  font-family: Verdana, Geneva, Tahoma, serif;
-  order: 0;
-}
+  .hello-me {
+    color: #f55800;
+    font-size: 72px;
+    font-family: Verdana, Geneva, Tahoma, serif;
+    order: 0;
+  }
 
-.SD {
-    color: #FFFFFF;
+  .SD {
+    color: #fff;
     font-size: 42px;
-    font-family: 'Inter',  'Arial Narrow Bold', sans-serif;
+    font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
     order: 1;
     margin-right: 8px;
-}
+  }
 
-.info {
+  .info {
     font-size: 20px;
-    color: #FFFFFF;
-    font-family: 'Inter',  'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
     order: 2;
     padding: 1%;
-}
+  }
 }
