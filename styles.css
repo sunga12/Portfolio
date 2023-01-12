@@ -179,4 +179,37 @@
     order: 0;
     flex-grow: 0;
   }
+  
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 192px 0px;
+    justify-items: center;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.hello-me {
+  color: #F55800;
+  font-size: 72px;
+  font-family: Verdana, Geneva, Tahoma, serif;
+  order: 0;
+}
+
+.SD {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-family: 'Inter',  'Arial Narrow Bold', sans-serif;
+    order: 1;
+    margin-right: 8px;
+}
+
+.info {
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: 'Inter',  'Arial Narrow Bold', sans-serif;
+    order: 2;
+    padding: 1%;
+}
 }
