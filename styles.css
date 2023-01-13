@@ -1,3 +1,104 @@
-body {
-  background-color: aqua;
+@media (max-width: 768px) {
+  body {
+    background-color: #1c1a19;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #3e3c3c;
+    position: absolute;
+    align-items: center;
+    color: #fff;
+  }
+
+  .name {
+    width: 100%;
+    justify-content: baseline;
+  }
+
+  #logo {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    padding-left: 10px;
+  }
+
+  .headline {
+    width: 100%;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 10px;
+    gap: 12px;
+    position: absolute;
+    width: 96%;
+    height: 590px;
+    left: 0;
+    top: 48px;
+    background: #1c1a19;
+    background-image: url(./images/Illustration.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 50%;
+  }
+
+  .hello-me {
+    color: #ff6b00;
+    font-size: 56px;
+    font-family: Crete-Round, Geneva, Tahoma, serif;
+    order: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    height: 124px;
+    letter-spacing: 0.37px;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px;
+  }
+
+  .SD {
+    color: #fff5e1;
+    font-size: 24px;
+    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
+    order: 1;
+    width: 100%;
+    height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    flex: none;
+    flex-grow: 0;
+    margin: 10px;
+  }
+
+  .info {
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', 'Arial Narrow Bold', sans-serif;
+    order: 2;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    flex: none;
+    flex-grow: 0;
+    width: 100%;
+    height: 123px;
+    margin: 5px;
+  }
 }
