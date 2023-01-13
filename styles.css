@@ -10,12 +10,10 @@
     width: 100%;
     left: 0;
     top: 0;
-    border-radius: 0;
+    border: 1px solid white;
     background: #3e3c3c;
     position: absolute;
-    border-color: aqua;
     gap: 40px;
-    justify-content: space-around;
     align-items: center;
     color: #fff;
   }
@@ -38,20 +36,21 @@
     align-items: center;
     padding: 10px 12px;
     gap: 8px;
-    width: 116px;
-    height: 40px;
-    left: 142px;
-    top: 16px;
+    width: 101px;
+    height: 44px;
+    left: 12px;
+    top: calc(50% - 44px / 2);
+    border: 1px solid white;
   }
 
   .name-text {
-    width: 92px;
-    height: 20px;
-    font-family: 'Inter', 'Arial Narrow Bold', sans-serif;
+    width: 77px;
+    height: 24px;
+    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -59,6 +58,19 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+    border: 1px solid white;
   }
 
   .frame-port {
@@ -189,10 +201,9 @@
     position: absolute;
     width: 375px;
     height: 590px;
-    left: 0px;
+    left: 0;
     top: 92px;
     background: #1c1a19;
-
   }
 
   .hello-me {
