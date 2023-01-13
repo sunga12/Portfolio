@@ -189,9 +189,10 @@
     position: absolute;
     width: 375px;
     height: 590px;
-    left: 0;
+    left: 0px;
     top: 92px;
     background: #1c1a19;
+
   }
 
   .hello-me {
@@ -207,6 +208,7 @@
     letter-spacing: 0.37px;
     flex: none;
     flex-grow: 0;
+    margin: 0;
   }
 
   .SD {
@@ -223,6 +225,7 @@
     align-items: center;
     flex: none;
     flex-grow: 0;
+    margin: 0;
   }
 
   .info {
@@ -237,6 +240,7 @@
     flex-grow: 0;
     width: 327px;
     height: 123px;
+    margin: 0;
   }
 
   aside {
