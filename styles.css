@@ -1,3 +1,18 @@
+@font-face {
+  src: url(fonts/CreteRound-Regular.ttf);
+  font-family: 'Crete Round';
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Regular.ttf);
+}
+
 @media (max-width: 768px) {
   body {
     background-color: #1c1a19;
@@ -58,7 +73,7 @@
   .hello-me {
     color: #ff6b00;
     font-size: 56px;
-    font-family: Crete-Round, Geneva, Tahoma, serif;
+    font-family: 'Crete Round', Geneva, Tahoma, serif;
     order: 0;
     font-style: normal;
     font-weight: 400;
