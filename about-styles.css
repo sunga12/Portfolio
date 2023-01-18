@@ -24,6 +24,7 @@
     align-items: flex-start;
     width: 100vw;
     height: 1901px;
+    background-color: #1c1a19;
     background-image: url(./images/About-me-illustration.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
@@ -63,7 +64,7 @@
 
   .resume-link {
     background: #ff6b00;
-    width: 161px;
+    width: 170px;
     height: 48px;
     display: flex;
     flex-direction: row;
@@ -73,9 +74,10 @@
     order: 2;
     flex-grow: 0;
     margin-left: 24px;
+    border: 0;
   }
 
-  p.resume-link a {
+  button.resume-link a {
     display: flex;
     align-items: center;
     text-align: center;
@@ -87,7 +89,25 @@
     font-weight: 700;
     font-size: 17px;
     line-height: 24px;
-    padding: 12px;
+    padding: 10px;
+  }
+
+  ul.ext-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 22px;
+  }
+
+  .resume-link:hover > a {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .resume-link:disabled {
+    background: #f4f1f0;
+    color: #5b5957;
   }
 
   .lists {
@@ -102,13 +122,6 @@
   ul.ext-links {
     color: #ff6b00;
     list-style: square;
-  }
-
-  ul.ext-links a {
-    text-decoration: none;
-    color: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    font-size: 22px;
   }
 
   ul.language {
