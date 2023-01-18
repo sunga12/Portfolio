@@ -1,6 +1,6 @@
 @font-face {
   src: url(fonts/CreteRound-Regular.ttf);
-  font-family: 'Crete Round';
+  font-family: "Crete Round";
 }
 
 @font-face {
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
   }
 
   .contact-comment {
@@ -32,7 +32,7 @@
     width: 327px;
     height: 216px;
     text-align: center;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -56,7 +56,7 @@
 
   #form-name {
     margin: 10px 0 10px 0;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -65,7 +65,7 @@
 
   #form-mail {
     margin-top: 54px;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -82,7 +82,7 @@
     color: #3c3a39;
     background: #fbf8f7;
     margin-top: 51px;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     width: 100%;
@@ -97,5 +97,33 @@
     border: none;
   }
 
+  .contact-btn button {
+    background: #ff6b00;
+    padding: 12px;
+    border: none;
+    color: #fbf8f7;
+    font-family: Inter, "Courier New", Courier, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
 
+  .contact-btn button:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .contact-footer-section {
+    display: flex;
+    margin-top: 124px;
+    height: 72px;
+  }
+
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+  }
 }
