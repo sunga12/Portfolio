@@ -17,14 +17,14 @@
   .Home {
     background-color: #1c1a19;
     height: 850px;
+    width: 100vw;
   }
 
   .home-header {
     display: flex;
     flex-direction: row;
     height: 48px;
-    width: 100%;
-    left: 0;
+    width: 100vw;
     top: 0;
     background: #3e3c3c;
     position: absolute;
@@ -50,21 +50,19 @@
   }
 
   .headline {
-    width: 100%;
+    width: 100vw;
   }
 
   .intro {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 10px;
+    padding: 120px 0px;
     gap: 12px;
     position: absolute;
-    width: 96%;
+    width: 100vw;
     height: 590px;
-    left: 0;
     top: 48px;
-    background: #1c1a19;
     background-image: url(./images/Illustration.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
@@ -119,13 +117,14 @@
     line-height: 24px;
     flex: none;
     flex-grow: 0;
-    width: 100%;
+    width: 95vw;
     height: 123px;
-    margin: 5px;
+    margin: 10px;
   }
 
   .recent-works {
     background-color: #fff;
+    width: 100vw;
   }
 
   .recent-works-title {
@@ -554,6 +553,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Inter, 'Courier New', Courier, monospace;
+    width: 100vw;
   }
 
   .contact-comment {
@@ -606,6 +606,7 @@
     color: #979493;
     width: 295px;
     padding: 0;
+    outline: none;
   }
 
   ul.form-list textarea {
@@ -638,12 +639,19 @@
     border: 1px solid #f55800;
   }
 
+  .contact-btn button:active {
+    background: #E05304;
+    color: #F4F1F0;
+  }
+
   #msg {
     width: 327px;
     text-align: left;
     height: 114px;
     border: none;
+    outline: none;
   }
+
 
   .contact-footer-section {
     display: flex;
