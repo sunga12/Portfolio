@@ -41,3 +41,61 @@
     flex-grow: 0;
     line-height: 44px;
   }
+
+  .form-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 73px;
+    line-height: 24px;
+    padding: 0;
+  }
+
+  #form-name {
+    margin: 10px 0 10px 0;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+  }
+
+  #form-mail {
+    margin-top: 54px;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+  }
+
+  ul.form-list input {
+    color: #979493;
+    width: 295px;
+    padding: 0;
+  }
+
+  ul.form-list textarea {
+    color: #3c3a39;
+    background: #fbf8f7;
+    margin-top: 51px;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  #msg {
+    width: 327px;
+    text-align: left;
+    height: 114px;
+    border: none;
+  }
+
+
+}
