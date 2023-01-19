@@ -17,14 +17,14 @@
   .Home {
     background-color: #1c1a19;
     height: 850px;
+    width: 100vw;
   }
 
   .home-header {
     display: flex;
     flex-direction: row;
     height: 48px;
-    width: 100%;
-    left: 0;
+    width: 100vw;
     top: 0;
     background: #3e3c3c;
     position: absolute;
@@ -49,22 +49,28 @@
     padding-left: 10px;
   }
 
+  .hamburger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+  }
+
   .headline {
-    width: 100%;
+    width: 100vw;
   }
 
   .intro {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 10px;
+    padding: 120px 0;
     gap: 12px;
     position: absolute;
-    width: 96%;
+    width: 100vw;
     height: 590px;
-    left: 0;
     top: 48px;
-    background: #1c1a19;
     background-image: url(./images/Illustration.png);
     background-repeat: no-repeat;
     background-position-x: 100%;
@@ -103,6 +109,12 @@
     margin: 10px;
   }
 
+  .icons {
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+  }
+
   .info {
     font-size: 16px;
     color: #fff;
@@ -113,13 +125,14 @@
     line-height: 24px;
     flex: none;
     flex-grow: 0;
-    width: 100%;
+    width: 95vw;
     height: 123px;
-    margin: 5px;
+    margin: 10px;
   }
 
   .recent-works {
     background-color: #fff;
+    width: 100vw;
   }
 
   .recent-works-title {
@@ -541,5 +554,132 @@
 
   .skills {
     order: 2;
+  }
+
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    width: 100vw;
+  }
+
+  .contact-comment {
+    color: #172b4d;
+    margin-top: 120px;
+    width: 327px;
+    height: 216px;
+    text-align: center;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    line-height: 44px;
+  }
+
+  .form-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 73px;
+    line-height: 24px;
+    padding: 0;
+  }
+
+  #form-name {
+    margin: 10px 0 10px 0;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+  }
+
+  #form-mail {
+    margin-top: 54px;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+  }
+
+  ul.form-list input {
+    color: #979493;
+    width: 295px;
+    padding: 0;
+    outline: none;
+  }
+
+  ul.form-list textarea {
+    color: #3c3a39;
+    background: #fbf8f7;
+    margin-top: 51px;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .contact-btn button {
+    background: #ff6b00;
+    padding: 12px;
+    border: none;
+    color: #fbf8f7;
+    font-family: Inter, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .contact-btn button:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .contact-btn button:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+
+  #msg {
+    width: 327px;
+    text-align: left;
+    height: 114px;
+    border: none;
+    outline: none;
+  }
+
+  .contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horiz-bar {
+    width: 134px;
+  }
+
+  .contact-footer-section {
+    display: flex;
+    margin-top: 124px;
+    height: 72px;
+  }
+
+  .contact-icon {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    filter: brightness(50%);
   }
 }
