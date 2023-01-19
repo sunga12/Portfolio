@@ -49,6 +49,15 @@
     padding-left: 10px;
   }
 
+  .hamburger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px/2);
+    
+  }
+
   .headline {
     width: 100vw;
   }
@@ -652,15 +661,27 @@
     outline: none;
   }
 
+  .contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .horiz-bar {
+    width: 134px;;
+  }
+
   .contact-footer-section {
     display: flex;
     margin-top: 124px;
     height: 72px;
+    
   }
 
   .contact-icon {
     width: 20px;
     height: 20px;
     padding: 10px;
+    filter: brightness(50%);
   }
 }
