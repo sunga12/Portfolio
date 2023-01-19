@@ -54,8 +54,7 @@
     width: 40px;
     height: 40px;
     right: 24px;
-    top: calc(50% - 40px/2);
-    
+    top: calc(50% - 40px / 2);
   }
 
   .headline {
@@ -668,14 +667,13 @@
   }
 
   .horiz-bar {
-    width: 134px;;
+    width: 134px;
   }
 
   .contact-footer-section {
     display: flex;
     margin-top: 124px;
     height: 72px;
-    
   }
 
   .contact-icon {
