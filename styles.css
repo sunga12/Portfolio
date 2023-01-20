@@ -1164,6 +1164,27 @@
     background-repeat: no-repeat;
   }
 
+  .project1:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project2:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project3:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project4:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+
   .professional {
     width: 90%;
     height: 81px;
@@ -1475,6 +1496,10 @@
     border: none;
   }
 
+  #form-name:hover{
+    transform:translate(20px);
+  }
+
   #form-mail {
     width: 500px;
     font-family: Roboto, 'Courier New', Courier, monospace;
@@ -1487,6 +1512,11 @@
     border: none;
     margin-top: 0;
     margin-bottom: 51px;
+  
+  }
+
+  #form-mail:hover {
+    transform:translate(-20px);
   }
 
   #msg {
