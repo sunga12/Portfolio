@@ -66,7 +66,7 @@
     display: flex;
     padding: 10px;
     justify-content: center;
-    font-family: 'Inter';
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -83,7 +83,7 @@
     width: 40px;
     height: 40px;
     right: 142px;
-    top: calc(50% - 40px/2);
+    top: calc(50% - 40px / 2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +98,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
     gap: 24px;
     border: 1px solid salmon;
     position: absolute;
@@ -106,10 +105,7 @@
     height: 739px;
     left: 143px;
     top: 72px;
-    
     justify-content: center;
-
-    /*  */
   }
 
   .desk-hey {
@@ -139,7 +135,6 @@
     display: flex;
     font-size: 32px;
     line-height: 44px;
-    display: flex;
     align-items: center;
     color: #fff;
     flex: none;
@@ -151,7 +146,7 @@
   .desk-intro {
     width: 566px;
     height: 123px;
-    font-family: 'Inter';
+    font-family: Inter, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
