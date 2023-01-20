@@ -49,6 +49,14 @@
     padding-left: 10px;
   }
 
+  .hamburger {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    top: calc(50% - 40px / 2);
+  }
+
   .headline {
     width: 100%;
   }
@@ -677,6 +685,7 @@
     height: 20px;
     padding: 10px;
     filter: brightness(50%);
+
   }
 
   .desk-icons {
