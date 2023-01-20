@@ -1,0 +1,160 @@
+@font-face {
+  src: url(fonts/CreteRound-Regular.ttf);
+  font-family: 'Crete Round';
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(fonts/Inter-Regular.ttf);
+}
+
+@media (min-width: 600px) {
+  .desk-home {
+    background: #1c1a19;
+    width: 100vw;
+    height: 870px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .desk-home-header {
+    background: #3e3c3c;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 72px;
+  }
+
+  .name-logo {
+    position: absolute;
+    width: 116px;
+    height: 40px;
+    left: 142px;
+    top: 16px;
+  }
+
+  .name-logo a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  ul.nav-list {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 255px;
+    height: 40px;
+    right: 194px;
+    margin-bottom: 16px;
+  }
+
+  ul.nav-list li {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  ul.nav-list li a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .email-box {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 142px;
+    top: calc(50% - 40px / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .email-icon {
+    width: 22px;
+    height: 18px;
+  }
+
+  .desk-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border: 1px solid salmon;
+    position: absolute;
+    width: 566px;
+    height: 739px;
+    left: 143px;
+    top: 72px;
+    justify-content: center;
+  }
+
+  .desk-hey {
+    display: flex;
+    width: 566px;
+    height: 160px;
+    font-family: 'Crete Round', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 82px;
+    border: 1px solid green;
+    color: #f55800;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* padding: 192px 0px; */
+  }
+
+  .desk-SD {
+    width: 566px;
+    height: 24px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 32px;
+    line-height: 44px;
+    align-items: center;
+    color: #fff;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    border: 1px solid red;
+  }
+
+  .desk-intro {
+    width: 566px;
+    height: 123px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #f4f5f7;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    border: 1px solid yellow;
+  }
+}
