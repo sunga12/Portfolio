@@ -183,7 +183,11 @@
   .feat-text {
     grid-column: span 4;
     color: #091e42;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -276,7 +280,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
     padding: 12px;
     width: 128px;
@@ -379,7 +387,11 @@
     text-align: center;
     color: #fff;
     font-weight: 500;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
   }
 
@@ -685,7 +697,6 @@
     height: 20px;
     padding: 10px;
     filter: brightness(50%);
-
   }
 
   .desk-icons {
@@ -773,7 +784,11 @@
     text-align: center;
     color: #fff;
     font-weight: 500;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
   }
 
@@ -1012,7 +1027,11 @@
 
   .feat-text {
     color: #091e42;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1111,7 +1130,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Inter", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
       sans-serif;
     padding: 12px;
     width: 128px;
