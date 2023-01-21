@@ -1505,14 +1505,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 130px 0;
+    padding: 130px 135px;
     gap: 24px;
     position: absolute;
-    width: 80vw;
-    left: 135px;
+    width: 100%;
+    left: 0;
     top: 4095px;
     height: 450px;
     margin-bottom: 96px;
+    border-bottom: 1px solid #dfe1e6;
   }
 
   .contact-comment {
@@ -1649,6 +1650,7 @@
   }
 
   .horiz2-bar {
+    display: none;
     align-self: flex-end;
     position: absolute;
     bottom: 0;
