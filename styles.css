@@ -1,6 +1,6 @@
 @font-face {
   src: url(fonts/CreteRound-Regular.ttf);
-  font-family: 'Crete Round';
+  font-family: "Crete Round";
 }
 
 @font-face {
@@ -40,7 +40,7 @@
   #logo {
     text-decoration: none;
     color: #fff;
-    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
+    font-family: "Roboto", "Arial Narrow Bold", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -80,7 +80,7 @@
   .hello-me {
     color: #ff6b00;
     font-size: 56px;
-    font-family: 'Crete Round', Geneva, Tahoma, serif;
+    font-family: "Crete Round", Geneva, Tahoma, serif;
     order: 0;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +95,7 @@
   .SD {
     color: #fff5e1;
     font-size: 24px;
-    font-family: 'Roboto', 'Arial Narrow Bold', sans-serif;
+    font-family: "Roboto", "Arial Narrow Bold", sans-serif;
     order: 1;
     width: 100%;
     height: 27px;
@@ -118,7 +118,7 @@
   .info {
     font-size: 16px;
     color: #fff;
-    font-family: 'Poppins', 'Arial Narrow Bold', sans-serif;
+    font-family: "Poppins", "Arial Narrow Bold", sans-serif;
     order: 2;
     font-style: normal;
     font-weight: 400;
@@ -138,7 +138,7 @@
   .recent-works-title {
     width: 100%;
     height: 83px;
-    font-family: 'Crete Round', 'Courier New', Courier, monospace;
+    font-family: "Crete Round", "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -165,7 +165,7 @@
 
   .post-stories {
     grid-column: span 4;
-    font-family: 'Crete Round', 'Courier New', Courier, monospace;
+    font-family: "Crete Round", "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -183,7 +183,12 @@
   .feat-text {
     grid-column: span 4;
     color: #091e42;
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
+      sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -218,7 +223,7 @@
     order: 0;
     flex-grow: 0;
     background: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -238,7 +243,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
   }
 
   .bootstrap {
@@ -249,7 +254,7 @@
     align-items: center;
     padding: 10px 12px;
     background: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     border: 1px solid #8993a4;
     flex: none;
     order: 2;
@@ -263,7 +268,7 @@
     display: flex;
     align-items: center;
     padding: 10px 12px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     background: #fff;
     border: 1px solid #8993a4;
     flex: none;
@@ -275,7 +280,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
+      sans-serif;
     padding: 12px;
     width: 128px;
     height: 48px;
@@ -328,7 +338,7 @@
     width: 90%;
     height: 81px;
     font-size: 32px;
-    font-family: 'Crete Round', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Crete Round", "Arial Narrow", Arial, sans-serif;
     margin-left: 16px;
     margin-right: 16px;
     line-height: 44px;
@@ -343,7 +353,7 @@
   }
 
   .proj-desc {
-    font-family: 'Inter', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Inter", "Arial Narrow", Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -377,7 +387,12 @@
     text-align: center;
     color: #fff;
     font-weight: 500;
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:
+      "Inter",
+      "Franklin Gothic Medium",
+      "Arial Narrow",
+      Arial,
+      sans-serif;
   }
 
   button.project-link-btn {
@@ -391,7 +406,7 @@
   .project-link-btn {
     display: flex;
     align-self: center;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -431,7 +446,7 @@
     background: #1c1a19;
     height: 79px;
     width: 327px;
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
     color: #ff6b00;
     font-style: normal;
     letter-spacing: 0.37px;
@@ -444,7 +459,7 @@
   }
 
   .about-me {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     height: 148px;
     font-weight: 400;
@@ -479,7 +494,7 @@
     letter-spacing: 0.03em;
     color: #fff;
     text-decoration: none;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -490,7 +505,7 @@
   ul.ext-links a {
     text-decoration: none;
     color: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 22px;
   }
 
@@ -540,7 +555,7 @@
   h3 {
     color: #fff;
     font-weight: 700;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 32px;
     line-height: 44px;
   }
@@ -561,7 +576,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     width: 100vw;
   }
 
@@ -571,7 +586,7 @@
     width: 327px;
     height: 216px;
     text-align: center;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -595,7 +610,7 @@
 
   #form-name {
     margin: 10px 0 10px 0;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -604,7 +619,7 @@
 
   #form-mail {
     margin-top: 54px;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -622,7 +637,7 @@
     color: #3c3a39;
     background: #fbf8f7;
     margin-top: 51px;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     width: 100%;
@@ -635,7 +650,7 @@
     padding: 12px;
     border: none;
     color: #fbf8f7;
-    font-family: Inter, 'Courier New', Courier, monospace;
+    font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -736,6 +751,10 @@
     left: 142px;
     top: 16px;
   }
+
+  .name-logo:hover {
+    transition: 1s;
+    transform: scale(1.5);
 
   .name-logo a {
     text-decoration: none;
@@ -1043,7 +1062,7 @@
     order: 0;
     flex-grow: 0;
     background: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1063,7 +1082,7 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
   }
 
   .bootstrap {
@@ -1074,7 +1093,7 @@
     align-items: center;
     padding: 10px 12px;
     background: #fff;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     border: 1px solid #8993a4;
     flex: none;
     order: 2;
@@ -1088,7 +1107,7 @@
     display: flex;
     align-items: center;
     padding: 10px 12px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     background: #fff;
     border: 1px solid #8993a4;
     flex: none;
@@ -1100,7 +1119,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     padding: 12px;
     width: 128px;
     height: 48px;
@@ -1172,6 +1191,27 @@
     background-repeat: no-repeat;
   }
 
+
+  .project1:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project2:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project3:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+
+  .project4:hover {
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+  }
+  
   .professional {
     width: 90%;
     height: 81px;
@@ -1229,7 +1269,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
@@ -1282,7 +1322,7 @@
     background: #262626;
     height: 78px;
     width: 100%;
-    font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+    font-family: "Crete Round", Arial, Helvetica, sans-serif;
     color: #f55800;
     font-style: normal;
     letter-spacing: 0.37px;
@@ -1297,7 +1337,7 @@
   }
 
   .about-me {
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-style: normal;
     height: 148px;
     font-weight: 400;
@@ -1483,9 +1523,13 @@
     border: none;
   }
 
+  #form-name:hover {
+    transform: translate(20px);
+  }
+
   #form-mail {
     width: 500px;
-    font-family: Roboto, 'Courier New', Courier, monospace;
+    font-family: Roboto, "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -1495,6 +1539,10 @@
     border: none;
     margin-top: 0;
     margin-bottom: 51px;
+  }
+
+  #form-mail:hover {
+    transform: translate(-20px);
   }
 
   #msg {
