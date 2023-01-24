@@ -31,9 +31,7 @@
 
 # 📖 [PORTFOLIO] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[This Is My Portfolio]** 
+**This Is My Portfolio** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -67,9 +65,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [https://sunga12.github.io/Portfolio/]("")
+- https://sunga12.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
