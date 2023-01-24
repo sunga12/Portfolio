@@ -69,7 +69,7 @@
 
 > Add a link to your deployed project.
 
-- [Coming Soon]("")
+- [https://sunga12.github.io/Portfolio/]("")
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
