@@ -31,9 +31,7 @@
 
 # 📖 [PORTFOLIO] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[This Is My Portfolio]** 
+**This Is My Portfolio** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -57,9 +55,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Built for Mobile Devices upto a width of 768px**
+- **Built for both Mobile and Desktop Devices**
 - **Tells you a bit about myself**
-- **Has a dark colour theme**
+- **Has a Contact form for you to get in touch with me**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,9 +65,8 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 
-- [Coming Soon]("")
+- https://sunga12.github.io/Portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +151,7 @@ You can deploy this project using:
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **About me page**
-- [ ] **My Recent Projects Page**
+- [ ] **My Recent Works Page**
 - [ ] **Contact Me Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
