@@ -31,7 +31,7 @@
 
 # 📖 [PORTFOLIO] <a name="about-project"></a>
 
-**This Is My Portfolio** 
+**This Is My Portfolio, Here is a brief walkthrough: https://www.loom.com/share/6fde72b9350a41bb98acc9e0b52da367** 
 
 ## 🛠 Built With <a name="built-with"></a>
 
