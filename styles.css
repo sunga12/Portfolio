@@ -83,6 +83,8 @@
     top: 0;
     left: 0;
     margin-left: -1000px;
+    transition-property: margin-left;
+    transition-duration: 1s;
     width: 100vw;
     height: 100vh;
     line-height: 70px;
