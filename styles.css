@@ -615,7 +615,8 @@
 
   .ext-links .frameworks li:first-child {
     list-style-image: url(./images/Rectangle-56.svg);
-    padding-left: 40px;
+
+    /* padding-left: 40px; */
   }
 
   .ext-links .skills li:first-child {
@@ -645,7 +646,7 @@
     font-weight: 700;
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 54px;
   }
 
   .language {
@@ -672,7 +673,6 @@
     color: #172b4d;
     margin-top: 120px;
     width: 327px;
-    height: 216px;
     text-align: center;
     font-family: Inter, "Courier New", Courier, monospace;
     font-style: normal;
