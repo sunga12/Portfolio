@@ -798,6 +798,11 @@
   .project2 {
     display: none;
   }
+
+  .horiz2-bar {
+    position: relative;
+    bottom: -195px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1752,6 +1757,7 @@
     grid-column: span 2;
     width: 100%;
     height: 1px;
+
   }
 
   .contact-footer-section {
