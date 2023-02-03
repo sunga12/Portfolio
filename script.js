@@ -1,6 +1,6 @@
 const menu = document.querySelector('.hamburger');
 
-const navLink = document.querySelector('.mob-nav-list');
+const navLink = document.querySelector('.mob-navlist');
 
 const close = document.querySelector('.close-icon');
 
@@ -11,11 +11,11 @@ menu.addEventListener('click', () => {
 });
 
 close.addEventListener('click', () => {
-  navLink.style.marginLeft = '-1000px';
+  navLink.style.marginLeft = '-100.0px';
 });
 
-lists.forEach((list)=>{
-  list.addEventListener('click', () => {
+lists.forEach((lists)=>{
+  lists.addEventListener('click', () => {
     navLink.style.marginLeft = '-1000px';
   });
 });
