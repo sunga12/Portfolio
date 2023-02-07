@@ -14,7 +14,7 @@ close.addEventListener('click', () => {
   navLink.style.marginLeft = '-1000px';
 });
 
-lists.forEach((list)=>{
+lists.forEach((list) => {
   list.addEventListener('click', () => {
     navLink.style.marginLeft = '-1000px';
   });
