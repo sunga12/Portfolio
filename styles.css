@@ -90,6 +90,9 @@
     padding: 2rem 0;
     list-style-type: none;
     z-index: 2;
+    margin-left: -1000px;
+    transition-property: margin-left;
+    transition-duration: 1s;
   }
 
   .mob-nav-list a {
@@ -110,7 +113,6 @@
   .mob-nav-list li {
     border-bottom: 1px solid #6f6c6b;
   }
-
 
   .email-icon {
     display: none;
@@ -204,11 +206,13 @@
 
   .recent-works-title {
     width: 100%;
+
     /* height: 83px; */
     font-family: "Crete Round", "Courier New", Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
+
     /* line-height: 52px; */
     display: flex;
     flex: none;
@@ -243,6 +247,7 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+
     /* height: 36px; */
     width: 100%;
   }
@@ -284,6 +289,7 @@
     align-items: center;
     padding: 10px 12px;
     width: 49px;
+
     /* height: 40px; */
     border: 1px solid #8993a4;
     flex: none;
@@ -304,6 +310,7 @@
     align-items: center;
     padding: 10px 12px;
     width: 56px;
+
     /* height: 40px; */
     background: #fff;
     border: 1px solid #8993a4;
@@ -315,6 +322,7 @@
 
   .bootstrap {
     width: 95px;
+
     /* height: 40px; */
     box-sizing: border-box;
     display: flex;
@@ -330,6 +338,7 @@
 
   .Ruby {
     width: 61px;
+
     /* height: 40px; */
     box-sizing: border-box;
     display: flex;
@@ -355,6 +364,7 @@
       sans-serif;
     padding: 12px;
     width: 128px;
+
     /* height: 48px; */
     font-size: 17px;
     background-color: #ff6b00;
@@ -442,7 +452,6 @@
     padding: 12px;
     margin: 0 0 10px 0;
     background: rgba(255, 255, 255, 0.24);
-
   }
 
   ul.buttons a {
@@ -480,6 +489,7 @@
     font-weight: 700;
     font-size: 17px;
     letter-spacing: 0.03em;
+
     /* line-height: 24px; */
     text-align: center;
     border: 0;
@@ -1053,11 +1063,13 @@
 
   .recent-works-title {
     width: 50%;
+
     /* height: 52px; */
     font-family: 'Crete Round', 'Courier New', Courier, monospace;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
+
     /* line-height: 52px; */
     display: flex;
     flex: none;
@@ -1226,6 +1238,7 @@
     font-family: "Inter", Arial, Helvetica, sans-serif;
     padding: 12px;
     width: 128px;
+
     /* height: 48px; */
     font-size: 17px;
     background-color: #ff6b00;
@@ -1327,6 +1340,7 @@
     margin-left: 16px;
     margin-right: 16px;
     color: #fff;
+
     /* margin-top: 84px; */
     font-weight: 400;
     font-style: normal;
@@ -1363,7 +1377,6 @@
       "Arial Narrow",
       Arial,
       sans-serif;
-
   }
 
   ul.buttons li {
@@ -1391,6 +1404,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 17px;
+
     /* line-height: 24px; */
     text-align: center;
     letter-spacing: 0.03em;
@@ -1411,7 +1425,6 @@
     background: #f4f1f0;
     color: #5b5957;
   }
-
 
   .about {
     height: 1195px;
