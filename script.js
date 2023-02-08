@@ -51,37 +51,37 @@ class Project {
 
 const featuredProject = new Project('Multi Post Stories',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', './images/featured-work.png',
-  [['html'], ['css'], ['bootstrap'], ['Ruby']], '#', '#', 'featured');
+  [['html'], ['css'], ['Bootstrap'], ['Ruby']], '#', '#', 'featured');
 
 const project1 = new Project('Professional Art Printing Data',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Project-BG.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project1');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project1');
 
 const project2 = new Project('Professional Art Printing Data',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Project-BG.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project1');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project1');
 
 const project3 = new Project('Data Dashboard Healthcare',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Proj3-bg.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project3');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project3');
 
 const project4 = new Project('Website Portfolio',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Proj4-bg.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project4');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project4');
 
 const project5 = new Project('Data Dashboard Healthcare',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Proj3-bg.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project3');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project3');
 
 const project6 = new Project('Website Portfolio',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Proj3-bg.png',
-  [['html'], ['bootstrap'], ['Ruby']], '#', '#', 'project project4');
+  [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project4');
 
 const featuredWork = document.createElement('div');
 featuredWork.className = featuredProject.className;

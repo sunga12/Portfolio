@@ -371,6 +371,11 @@
     color: #5b5957;
   }
 
+  .see-project:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+
   .projects {
     display: grid;
     width: fit-content;
@@ -484,6 +489,11 @@
   .project-link-btn:disabled {
     background: #f4f1f0;
     color: #5b5957;
+  }
+
+  .project-link-btn:active {
+    background: #e05304;
+    color: #f4f1f0;
   }
 
   .about {
@@ -830,8 +840,8 @@
 
   .popup-close {
     position: absolute;
-    top: 5%;
-    right: 5%;
+    top: 30px;
+    right: 30px;
   }
 
   .popup-buttons {
@@ -846,6 +856,7 @@
 
   .popup-image {
     align-self: center;
+    width: 90%;
   }
 
   .popup-desc {
@@ -869,6 +880,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 5px 10px;
+    line-height: 20px;
   }
 
   .popup-see-more {
@@ -889,6 +901,17 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     letter-spacing: 0.03em;
     font-style: normal;
+  }
+
+  .see-more:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .see-more:active {
+    background: #e05304;
+    color: #f4f1f0;
   }
 
   .popup-links {
@@ -1903,7 +1926,7 @@
     width: 90%;
     align-self: center;
     font-size: 32px;
-    font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+    font-family: "Crete Round", "Arial Narrow", Arial, sans-serif;
     margin-right: 16px;
     line-height: 44px;
     color: #172b4d;
@@ -1925,7 +1948,7 @@
   .popup-buttons {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 0.5rem;
     list-style-type: none;
     padding-top: 1rem;
     margin: 0;
@@ -1957,6 +1980,7 @@
     font-weight: 600;
     font-size: 1rem;
     padding: 5px 10px;
+    line-height: 20px;
   }
 
   .popup-see-more {
@@ -1977,6 +2001,17 @@
     font-family: 'Inter', Arial, Helvetica, sans-serif;
     letter-spacing: 0.03em;
     font-style: normal;
+  }
+
+  .see-more:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border: 1px solid #f55800;
+  }
+
+  .see-more:active {
+    background: #e05304;
+    color: #f4f1f0;
   }
 
   .popup-links {
