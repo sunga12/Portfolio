@@ -50,7 +50,7 @@ class Project {
 }
 
 const featuredProject = new Project('Multi Post Stories',
-  'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', 'images/featured-work.png',
+  'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', './images/featured-work.png',
   [['html'], ['css'], ['bootstrap'], ['Ruby']], '#', '#', 'featured');
 
 const project1 = new Project('Professional Art Printing Data',
@@ -93,7 +93,6 @@ featuredWork.appendChild(gymfit);
 
 const gymfitImg = document.createElement('img');
 gymfitImg.src = featuredProject.featuredImage;
-gymfitImg.src = 'images/featured-work.png';
 gymfitImg.style.width = '100%';
 gymfit.appendChild(gymfitImg);
 
