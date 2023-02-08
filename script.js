@@ -224,7 +224,6 @@ featSeeProject.addEventListener('click', () => {
   });
 });
 
-  
 const projects = [
   project2,
   project3,
@@ -277,7 +276,7 @@ projects.forEach((project) => {
   seeProject.className = 'project-link-btn';
   seeProject.innerHTML = '<h2>See Project<h2>';
   projectdiv.appendChild(seeProject);
-seeProject.addEventListener('click', () => {
+  seeProject.addEventListener('click', () => {
     const projectPopup = document.createElement('div');
     projectPopup.className = 'project-popup';
     body.appendChild(projectPopup);
