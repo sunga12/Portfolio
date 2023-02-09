@@ -2020,3 +2020,10 @@
     margin: 0 0 0 5px;
   }
 }
+
+#error-text {
+  color: red;
+  animation: fadeIn 5s;
+
+  /* animation-duration: 2s; */
+}

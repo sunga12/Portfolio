@@ -351,3 +351,7 @@ projects.forEach((project) => {
     });
   });
 });
+
+const contactForm = document.getElementById('contact-form');
+const email = document.getElementById('form-mail');
+const regex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
