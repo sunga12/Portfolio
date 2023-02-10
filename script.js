@@ -1,3 +1,5 @@
+// MOBILE POPUP MENU
+
 const menu = document.querySelector('.hamburger');
 
 const navLink = document.querySelector('.mob-nav-list');
@@ -20,6 +22,12 @@ lists.forEach((list) => {
   });
 });
 
+// END OF MOBILE POPUP MENU
+
+// POP UP WINDOW
+
+// Create recent works section with javascript
+
 const { body } = document;
 const recentWorks = document.querySelector('.recent-works');
 
@@ -37,6 +45,8 @@ titleLine.className = 'line';
 titleLine.style.width = '40%';
 recentWorksHeading.appendChild(titleLine);
 
+// Project class blueprint for each project
+
 class Project {
   constructor(name, description, featuredImage, technologies, liveLink, sourceLink, className) {
     this.name = name;
@@ -48,6 +58,8 @@ class Project {
     this.className = className;
   }
 }
+
+// Project objects
 
 const featuredProject = new Project('Multi Post Stories',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.', './images/featured-work.png',
@@ -82,6 +94,8 @@ const project6 = new Project('Website Portfolio',
   'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.',
   './images/Proj3-bg.png',
   [['html'], ['Bootstrap'], ['Ruby']], '#', '#', 'project project4');
+
+// Featured work section
 
 const featuredWork = document.createElement('div');
 featuredWork.className = featuredProject.className;
@@ -145,6 +159,8 @@ multiPostStories.appendChild(featSeeProject);
 const projectsSection = document.createElement('div');
 projectsSection.className = 'projects';
 recentWorks.appendChild(projectsSection);
+
+// Featured work popup window
 
 featSeeProject.addEventListener('click', () => {
   const projectPopup = document.createElement('div');
@@ -224,6 +240,8 @@ featSeeProject.addEventListener('click', () => {
   });
 });
 
+// Projects array made of project objects
+
 const projects = [
   project2,
   project3,
@@ -234,6 +252,8 @@ const projects = [
 ];
 
 projects.className = 'projects';
+
+// Build each project using forEach loop
 
 projects.forEach((project) => {
   const projectdiv = document.createElement('div');
@@ -276,6 +296,9 @@ projects.forEach((project) => {
   seeProject.className = 'project-link-btn';
   seeProject.innerHTML = '<h2>See Project<h2>';
   projectdiv.appendChild(seeProject);
+
+  // Project popup window
+
   seeProject.addEventListener('click', () => {
     const projectPopup = document.createElement('div');
     projectPopup.className = 'project-popup';
@@ -351,6 +374,8 @@ projects.forEach((project) => {
     });
   });
 });
+
+// CONTACT FORM EMAIL VALIDATION
 
 const contactForm = document.getElementById('contact-form');
 const email = document.getElementById('form-mail');
