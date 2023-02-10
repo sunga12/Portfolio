@@ -351,3 +351,17 @@ projects.forEach((project) => {
     });
   });
 });
+
+const contactForm = document.getElementById('contact-form');
+const email = document.getElementById('form-mail');
+const regex = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+
+contactForm.addEventListener('submit', (event) => {
+  if (regex.test(email.value) === true) {
+    contactForm.submit();
+  } else {
+    event.preventDefault();
+    const errorMessage = document.getElementById('error-text');
+    errorMessage.innerHTML = 'Form not submitted. Please use the correct format & only use lowercase letters.';
+  }
+});
