@@ -248,7 +248,7 @@ const projects = [
   project4,
   project1,
   project5,
-  project6
+  project6,
 ];
 
 projects.className = 'projects';
@@ -389,30 +389,26 @@ contactForm.addEventListener('submit', (event) => {
     const errorMessage = document.getElementById('error-text');
     errorMessage.innerHTML = 'Form not submitted. Please use the correct format & only use lowercase letters.';
   }
-  
 });
 
-
-contactForm.addEventListener('input', (event) => {
-
+contactForm.addEventListener('input', () => {
   const formObj = {
-    name : document.getElementById('form-name').value, 
-    email: document.getElementById('form-mail').value, 
-    message: document.getElementById('msg').value
-  }
+    name: document.getElementById('form-name').value,
+    email: document.getElementById('form-mail').value,
+    message: document.getElementById('msg').value,
+  };
 
   const formObjSerialized = JSON.stringify(formObj);
 
   localStorage.setItem('form-data', formObjSerialized);
+});
+const formObjDeserialized = JSON.parse(localStorage.getItem('form-data'));
 
-})
-    const formObjDeserialized = JSON.parse(localStorage.getItem('form-data'));
-
-  if (formObjDeserialized){
-    const name = document.getElementById('form-name');
-    name.value = formObjDeserialized.name;
-    const email = document.getElementById('form-mail');
-    email.value = formObjDeserialized.email;
-    const message = document.getElementById('msg');
-    message.value = formObjDeserialized.message;
-  }
+if (formObjDeserialized) {
+  const name = document.getElementById('form-name');
+  name.value = formObjDeserialized.name;
+  const email = document.getElementById('form-mail');
+  email.value = formObjDeserialized.email;
+  const message = document.getElementById('msg');
+  message.value = formObjDeserialized.message;
+}
