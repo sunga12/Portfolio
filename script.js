@@ -2,18 +2,18 @@
 
 const menu = document.querySelector('.hamburger');
 
-const navLink = document.querySelector('.mob-nav-list');
+const navLink = document.querySelector('.mob-navlist');
 
 const close = document.querySelector('.close-icon');
 
-const lists = document.querySelectorAll('.mob-nav-list li');
+const lists = document.querySelectorAll('.mob-navlist li');
 
 menu.addEventListener('click', () => {
   navLink.style.marginLeft = 0;
 });
 
 close.addEventListener('click', () => {
-  navLink.style.marginLeft = '-1000px';
+  navLink.style.marginLeft = '-100px';
 });
 
 lists.forEach((list) => {
@@ -236,7 +236,7 @@ featSeeProject.addEventListener('click', () => {
 
   popupClose.addEventListener('click', () => {
     body.removeChild(projectPopup);
-    body.removeChild(overlay);
+    body.removeChild(overla);
   });
 });
 
